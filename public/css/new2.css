@@ -1,0 +1,107 @@
+.btn-custom {
+	background-color: #e05a28 !important; 
+	background-repeat: repeat-x; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e05a28"); 
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#e05a28)); 
+	background-image: -moz-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -ms-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e05a28)); 
+	background-image: -webkit-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -o-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: linear-gradient(#ffffff, #e05a28); 
+	border-color: #e05a28 #e05a28 hsl(170, 100%, 25%);
+	color: #fff !important; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33); 
+	-webkit-font-smoothing: antialiased;
+}
+.btn-custom:hover {
+	background-image: none;
+}
+html {
+
+}
+body {
+	
+}
+.container-fluid {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.hero {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 40px;
+	padding: 60px 0 60px 0;	
+}
+.hero .intro h1 {
+	color: #e05a28;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	line-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.hero-button {
+	margin-top: 1em;	
+}
+.section {
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.section h2 {
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 1em;
+	text-align: center;	
+}
+/* Ferrari Corsa b20808, Orange #1 f46c21 */
+.section h2,
+.thirds h2 {
+	font-size: 36px;
+	color: #e05a28;
+}
+.thirds {
+	/*background: url(../img/horizontal_shadow_light.png) top no-repeat;*/
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.thirds h2 {
+	margin-bottom: 1em;
+}
+.thirds p {
+	margin-top: 1em;	
+}
+.thirds .col-md-4 {
+	padding-top: 40px;
+	
+}
+.footer {
+	padding: 20px 0 20px 0;	
+}
+.map,
+.contribute,
+.search {
+	background-repeat: no-repeat;
+	background-position: 8% 12%;
+	min-height: 461px;
+	background-size: contain;
+}
+.search {
+	background-image: url(../img/framed_LD_filter_list.png);
+}
+.map {
+	background-image: url(../img/framed_LD_filter_map.png);	
+}
+.contribute {
+	background-image: url(../img/framed_LD_edit_record.png);	
+}
+@media only screen and (min-width: 768px) {
+	.map,
+	.contribute,
+	.search {
+		background-attachment: fixed;
+		background-size: auto;
+	}
+}

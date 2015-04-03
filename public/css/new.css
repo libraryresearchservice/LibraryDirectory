@@ -1,0 +1,72 @@
+.hero {
+	border-bottom: 1px solid #ccc;
+	padding: 60px 0 60px 0;	
+}
+.hero .intro h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	line-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.hero-button {
+	margin-top: 1em;	
+}
+.section {
+	border-bottom: 1px solid #ccc;
+	padding: 60px 0 60px 0;	
+}
+.section.a {
+	background: url(../img/horizontal_shadow_light.png) top no-repeat;	
+	background-color: #f5f5f7;
+	position: relative;
+}
+.section h2 {
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 1em;
+	text-align: center;	
+}
+.section h2,
+.thirds h2 {
+	font-size: 36px;
+}
+.thirds {
+	text-align: center;
+}
+.thirds h2 {
+	margin-bottom: 1em;
+}
+.thirds p {
+	margin-top: 1em;	
+}
+.footer {
+	padding: 20px 0 20px 0;	
+}
+.flipped {
+	background: url(../img/horizontal_shadow_light_flipped.png) bottom no-repeat;
+	position: absolute;
+	bottom: 0;
+	height: 11px;
+	width: 100%;
+	z-index: 2000;
+}
+.btn-custom {
+	background-color: #e05a28 !important; 
+	background-repeat: repeat-x; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e05a28"); 
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#e05a28)); 
+	background-image: -moz-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -ms-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e05a28)); 
+	background-image: -webkit-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: -o-linear-gradient(top, #ffffff, #e05a28); 
+	background-image: linear-gradient(#ffffff, #e05a28); 
+	border-color: #e05a28 #e05a28 hsl(170, 100%, 25%);
+	color: #fff !important; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33); 
+	-webkit-font-smoothing: antialiased;
+}
+.btn-custom:hover {
+	background-image: none;
+}

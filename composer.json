@@ -1,0 +1,38 @@
+{
+    "name": "nrs/librarydirectory",
+    "description": "",
+    "authors": [
+        {
+            "name": "nrs",
+            "email": "LRS@LRS.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+			"src/interfaces",
+			"src/migrations",
+			"src/models",
+			"src/repositories",
+			"src/traits"
+        ],
+		"files": [
+			"src/functions/arrays.php",
+			"src/functions/cache.php",
+			"src/functions/columns.php",
+			"src/functions/filterable.php",
+			"src/functions/forms.php",
+			"src/functions/geo.php",
+			"src/functions/http.php",
+			"src/functions/user.php"
+		],
+        "psr-0": {
+            "Nrs\\Librarydirectory\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
