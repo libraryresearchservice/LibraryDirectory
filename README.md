@@ -1,6 +1,6 @@
 # LibraryDirectory
 
-Laravel package that powers the Colorado Library Directory at http://find.coloradolibraries.org.
+Laravel package that powers the Colorado Library Directory at http://find.coloradolibraries.org. Although it is contained within a package, it is meant to be a stand-alone Laravel application.  For example, it has it's own routes, filters, database config, etc.
 
 Installation
 ============
