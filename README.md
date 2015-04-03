@@ -27,4 +27,5 @@ Installation
 
   'Nrs\Librarydirectory\LibrarydirectoryServiceProvider'
   
-6. (COMING SOON; contact us directly until then) Create the MySQL database using librarydirectory.sql.
+6. Copy the contents of the /public/ folder in the package to laravel's /public/ folder.
+7. (COMING SOON; contact us directly until then) Create the MySQL database using librarydirectory.sql.
