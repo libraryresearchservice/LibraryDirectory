@@ -27,4 +27,4 @@ Installation
 
   'Nrs\Librarydirectory\LibrarydirectoryServiceProvider'
   
-6. (COMING SOON) Create the MySQL database using librarydirectory.sql.
+6. (COMING SOON; contact us directly until then) Create the MySQL database using librarydirectory.sql.
