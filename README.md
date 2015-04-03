@@ -25,8 +25,8 @@ Installation
 ```	
 4. In the package files, edit /src/config/database.php and add your database info.
 5. Add the service provider to /app/app.php
-
+```
   'Nrs\Librarydirectory\LibrarydirectoryServiceProvider'
-  
+```
 6. Copy the contents of the /public/ folder in the package to laravel's /public/ folder.
 7. (COMING SOON; contact us directly until then) Create the MySQL database using librarydirectory.sql.
